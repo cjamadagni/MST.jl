@@ -1,7 +1,14 @@
 using LightGraphs
 
+####################################################
+## Minimum Spanning Tree
+####################################################
 
-function minimum_spanning_tree(distmx, n)
+#function returns the MST of an undirected graph. 
+#Parameters are the adjacency matrix and number of vertices.
+
+
+function minimum_spanning_tree(distmx, n) 
 
 	edgeList = []
 	edgeCount = 0
