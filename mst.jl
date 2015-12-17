@@ -14,6 +14,7 @@ function minimum_spanning_tree(distmx, n)
 		end
 	end
 
+	sort!(edgeList)
 	
 	for i in 1:length(edgeList)
 		
